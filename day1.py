@@ -9,4 +9,5 @@ else:
 for char in range(0, len(input) - 1):
     if(input[char] == input[char + 1]):
         sum = sum + int(input[char])
+        
 print(sum)
